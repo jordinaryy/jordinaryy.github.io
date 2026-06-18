@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Software Design and Engineering | Jordan Krueger</title>
+  <title>Algorithms and Data Structure</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,56 +20,42 @@
   </nav>
 
   <header class="hero">
-    <h1>Software Design and Engineering</h1>
-    <p>Milestone Two Enhancement Narrative</p>
+    <h1>Algorithms and Data Structure</h1>
+    <p>Milestone Three Enhancement</p>
   </header>
 
   <main>
     <section>
       <h2>Artifact Description</h2>
       <p>
-        FunnelTrack is a full stack web application I created during CS 499 to demonstrate my skills in
-        software design and engineering. The application tracks user behavior through an onboarding funnel,
-        visualizes drop off rates at each stage, and includes A/B testing and exit survey functionality.
-        It was created in May 2026 as my capstone project artifact.
+        The FunnelTrack I’ve created is a full stack web application that tracks the users’ behavior through an onboarding funnel and analyzes conversion rates at each stage. 
+        This application was created in May/June of 2026 as my Capstone. It includes a React frontend, a Node.js/Express backend, and a PostgreSQL database.
       </p>
     </section>
 
     <section>
       <h2>Justification for Inclusion</h2>
       <p>
-        I selected this artifact because it demonstrates a broad range of software engineering skills in a
-        single cohesive project. The specific components that showcase my abilities include the separation
-        of concerns between frontend and backend, the REST API architecture, reusable React component design,
-        and the integration of multiple third party libraries. The artifact was improved by implementing a
-        fully functional React frontend with dynamic page routing, a Node/Express backend with organized
-        route files, and a connected PostgreSQL database. These enhancements transformed the concept into a
-        working full stack application.
+        I selected this artifact for the algorithms and data structures category because the core of the application is built around data aggregation, sorting, and analytical computation. 
+        The specific components that I am showcasing for this project are the funnel analytic queries that aggregates user events by stage, the A/B testing that randomly puts users into groups, the conversion rate calculation that computes percentages from raw counts, and the drop off analysis that measures user loss between each funnel stage.  
+        This artifact has been recently updated by implementing an analytic engine that transforms the raw event data stored in the database and displays is on the dashboard. 
       </p>
     </section>
 
     <section>
       <h2>Course Outcomes</h2>
       <p>
-        This enhancement demonstrates progress toward several course outcomes. I demonstrated the ability to
-        use well founded techniques and tools in computing practices by implementing industry standard
-        technologies including React, Node.js, Express, and PostgreSQL. I developed a security mindset by
-        implementing parameterized queries across all database operations to prevent SQL injection attacks.
-        I also designed and delivered professional quality visual communications through the dashboard UI
-        which presents complex funnel data in a clear and accessible way.
+        The enhancement directly ties into the course outcomes of designing and evaluating computing solutions that solve a given problem using algorithmic principles. My funnel analytics query uses aggregation, grouping, and ordering algorithms to summarize individual user events into a clear stage by breakdown. 
+        The A/B testing uses a randomization algorithm that is unbiased 50/50 split between variants, which was needed to make statistically valid results.
       </p>
     </section>
 
     <section>
       <h2>Reflection</h2>
       <p>
-        The process of building FunnelTrack taught me how the different layers of a full stack application
-        communicate with each other. One of the biggest challenges I faced was resolving version compatibility
-        issues between React 19 and third party libraries like recharts, which required me to switch to
-        chart.js. I also learned the importance of environment variables for keeping sensitive database
-        credentials out of my codebase. Through this process I gained a much deeper understanding of REST API
-        design, React component architecture, and database connection management than I had from any
-        previous course.
+       This project has been teaching me a lot, and I have found it most fun. From researching forums, YouTube, and the software documentation (React.dev, react-bootstrap.netlify.app, chartjs.org, axios-http.com) to making my code alive has never been more rewarding. 
+        This specific enhancement has taught me how much algorithmic thinking goes into single dashboard number (it’s a lot and headache). 
+        One challenge I faced was understanding how SQL aggregation can function like COUNT, SUM, and GROUP BY map to the same concepts I learned in my algorithms and data structures courses. 
       </p>
     </section>
 
@@ -83,7 +69,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2026 Jordan Krueger</p>
+    <p>Jordan Krueger</p>
   </footer>
 
 </body>
