@@ -14,11 +14,10 @@ body {
 
 
 nav {
-  background-color: #14532d;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 32px;
+  padding: 100px 50px;
   flex-wrap: wrap;
 }
 
